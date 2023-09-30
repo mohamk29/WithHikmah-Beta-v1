@@ -1,0 +1,43 @@
+.contactwithhikmahgmailcom {
+  text-decoration: none;
+  position: relative;
+  line-height: 1.76rem;
+  color: inherit;
+}
+.byWithhikmah {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 0.79rem;
+  line-height: 1.56rem;
+  color: var(--color-gray-100);
+}
+.footer {
+  align-self: stretch;
+  height: 8.13rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xl) 0 var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+  text-align: center;
+  font-size: 0.87rem;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 420px) {
+  .byWithhikmah,
+  .contactwithhikmahgmailcom {
+    font-size: var(--font-size-6xs);
+  }
+  .footer {
+    height: 4.69rem;
+    gap: var(--gap-8xs);
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

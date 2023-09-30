@@ -1,0 +1,273 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.heroBackgroundImage {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  z-index: 0;
+}
+.heroBackgroundImage.animate {
+  animation: 1s ease-in-out 0s 1 normal forwards fade-in;
+}
+.ifAllahIntends {
+  margin-block-start: 0;
+  margin-block-end: 12px;
+}
+.heGivesHim {
+  margin: 0;
+}
+.ifAllahIntendsContainer,
+.sahhAlBukhari71 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.ifAllahIntendsContainer {
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.sahhAlBukhari71 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: var(--font-inter);
+}
+.heroContent {
+  margin: 0 !important;
+  position: absolute;
+  width: 67.29%;
+  top: 2.88rem;
+  right: 16.39%;
+  left: 16.32%;
+  height: 7.38rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.56rem;
+  opacity: 0;
+  z-index: 1;
+}
+.heroContent.animate {
+  animation: 1s ease-in 0s 1 normal forwards slide-in-right;
+}
+.contactFormSection,
+.heroSection {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.heroSection {
+  height: 34.69rem;
+  flex-shrink: 0;
+  align-items: center;
+  position: relative;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: 1.69rem;
+  color: var(--color-black);
+  font-family: var(--font-domine);
+}
+.contactFormSection {
+  background-color: var(--color-black);
+  align-items: flex-start;
+  padding: 2.75rem 6.31rem;
+}
+.copyrightStatement {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+.allRightsReserved {
+  display: block;
+}
+.allRightsReservedContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 2.25rem;
+  color: #999;
+}
+.copyright2022Container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 1.69rem;
+}
+.copyrightSection,
+.homepage {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.copyrightSection {
+  align-self: stretch;
+  height: 15.31rem;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0 0.81rem;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.homepage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 103.13rem;
+  justify-content: flex-start;
+  gap: 0.94rem;
+  text-align: center;
+  font-size: 1.88rem;
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1200px) {
+  .heroBackgroundImage,
+  .heroContent {
+    opacity: 0;
+  }
+  .heroBackgroundImage.animate {
+    animation: 1s ease-in-out 0s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .heroContent.animate {
+    animation: 1s ease-in 0s 1 normal forwards slide-in-right;
+  }
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}
+@media screen and (max-width: 960px) {
+  .heroBackgroundImage,
+  .heroContent {
+    opacity: 0;
+  }
+  .heroBackgroundImage.animate {
+    animation: 1s ease-in-out 0s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .heroContent.animate {
+    animation: 1s ease-in 0s 1 normal forwards fade-in-right;
+  }
+  @keyframes fade-in-right {
+    0% {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  .ifAllahIntendsContainer {
+    font-weight: 700;
+    font-family: var(--font-domine);
+    font-size: var(--font-size-smi);
+    text-align: center;
+  }
+  .sahhAlBukhari71 {
+    font-size: var(--font-size-5xs);
+  }
+  .heroContent {
+    opacity: 0;
+  }
+  .heroContent.animate {
+    animation: 1s ease-in 0s 1 normal forwards slide-in-right;
+  }
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .contactFormSection {
+    flex-direction: column;
+  }
+  .copyrightStatement {
+    font-size: var(--font-size-mid);
+    height: 1.38rem;
+  }
+  .allRightsReservedContainer {
+    font-size: var(--font-size-4xs);
+    line-height: 1.44rem;
+  }
+  .copyright2022Container {
+    font-size: var(--font-size-5xs);
+  }
+  .copyrightSection {
+    width: 26.25rem;
+    height: 9.38rem;
+    flex-direction: column;
+    gap: var(--gap-2xs);
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: var(--padding-xl);
+  }
+  .copyrightSection,
+  .homepage {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+}

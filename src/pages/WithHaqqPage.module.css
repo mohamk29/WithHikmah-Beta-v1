@@ -1,0 +1,357 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.withhaqqlogoimgIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.withhaqqlogoimgdiv {
+  width: 20.63rem;
+  height: 22.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.withhaqq {
+  margin: 0;
+  position: relative;
+  font-size: 3.19rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  width: 14.38rem;
+}
+.anInstagramPage {
+  font-family: var(--font-playfair-display);
+}
+.anInstagramPageDedicatedTo {
+  display: block;
+}
+.anInstagramPageContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.anInstagramPageContainer {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 24.81rem;
+}
+.anInstagramPageContainer,
+.instagram,
+.withhaqq1 {
+  position: relative;
+  line-height: 1.3rem;
+}
+.instagram {
+  margin: 0;
+}
+.withhaqq1 {
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
+.heroContent,
+.instagramhandlediv {
+  display: flex;
+  align-items: flex-start;
+}
+.instagramhandlediv {
+  width: 9.69rem;
+  height: 1.38rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.heroContent {
+  flex: 1;
+  height: 13.75rem;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
+}
+.heroContent.animate,
+.heroSection.animate {
+  animation: 1s ease-in-out 0s 1 normal forwards fade-in;
+}
+.heroSection,
+.morningEveningAnd {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.heroSection {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 5.31rem;
+  gap: 6.38rem;
+  opacity: 0;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+  font-family: var(--font-playfair-display);
+}
+.morningEveningAnd {
+  margin: 0;
+  position: relative;
+  font-size: 1.23rem;
+  line-height: 1.54rem;
+  font-weight: 700;
+  font-family: inherit;
+  justify-content: center;
+  height: 1.56rem;
+  flex-shrink: 0;
+}
+.theseAdhkrAreContainer,
+.theseAdhkrServeContainer {
+  margin: 0;
+  position: relative;
+  line-height: 1.37rem;
+  display: flex;
+  align-items: center;
+  width: 87.88rem;
+}
+.theseAdhkrServeContainer {
+  width: 90rem;
+}
+.adhkarexplanationdiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.clickThePicturesContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 1.37rem;
+  color: var(--color-black);
+}
+
+.adhkarcontentdiv {
+  align-self: stretch;
+  height: 11.94rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.eveningadhkarimgIcon,
+.morningadhkarimgIcon {
+  position: relative;
+  width: 12.71rem;
+  height: 15.9rem;
+  object-fit: cover;
+}
+.eveningadhkarimgIcon:hover,
+.morningadhkarimgIcon:hover {
+  animation: 9s ease-in 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.adhkaralbumdiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-10xs);
+}
+.withhaqqmaincontent,
+.withhaqqpage {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.withhaqqmaincontent {
+  align-self: stretch;
+  height: 29.94rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  opacity: 0;
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--color-gray-100);
+  font-family: var(--font-playfair-display);
+}
+.withhaqqmaincontent.animate {
+  animation: 2s ease-in-out 0s 1 normal forwards fade-in;
+}
+.withhaqqpage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 69.5rem;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+@media screen and (max-width: 1200px) {
+  .withhaqqmaincontent {
+    padding-top: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .withhaqqlogoimgdiv {
+    width: 16.88rem;
+    height: 18.75rem;
+  }
+  .heroContent {
+    height: 13.75rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .withhaqqlogoimgdiv {
+    width: 8.13rem;
+    height: 10rem;
+  }
+  .withhaqq {
+    font-size: var(--font-size-mid);
+    align-self: stretch;
+    width: auto;
+    height: 1.25rem;
+  }
+  .anInstagramPageContainer {
+    line-height: 0.69rem;
+    align-self: stretch;
+    width: auto;
+  }
+  .anInstagramPageContainer,
+  .instagram,
+  .withhaqq1 {
+    font-size: var(--font-size-6xs);
+  }
+  .withhaqq1 {
+    flex: 1;
+    height: 0.63rem;
+  }
+  .instagramhandlediv {
+    align-self: stretch;
+    width: auto;
+    height: 0.44rem;
+    flex-direction: row;
+    gap: var(--gap-10xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .heroContent {
+    height: 4.69rem;
+    flex-direction: column;
+    gap: var(--gap-6xs);
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+  .heroSection {
+    flex-direction: row;
+    gap: var(--gap-xl);
+    padding-left: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .morningEveningAnd {
+    font-size: var(--font-size-2xs);
+    height: 0.75rem;
+  }
+  .theseAdhkrAreContainer {
+    height: 10rem;
+  }
+  .theseAdhkrAreContainer,
+  .theseAdhkrServeContainer {
+    font-size: var(--font-size-6xs);
+    line-height: 0.88rem;
+    align-self: stretch;
+    width: auto;
+  }
+  .adhkarexplanationdiv {
+    height: 6.25rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .clickThePicturesContainer {
+    font-size: var(--font-size-6xs);
+    line-height: 0.88rem;
+  }
+  .adhkarcontentdiv {
+    height: 1.56rem;
+    gap: var(--gap-6xs);
+  }
+  .eveningadhkarimgIcon,
+  .morningadhkarimgIcon {
+    width: 5.94rem;
+    height: 9.13rem;
+  }
+  .morningadhkarimgIcon:hover {
+    animation: 9s ease-in 0s infinite normal none pulsate;
+    opacity: 1;
+  }
+  @keyframes pulsate {
+    0% {
+      transform: scale(1);
+      transform-origin: center center;
+      animation-timing-function: ease-out;
+    }
+    10% {
+      transform: scale(0.91);
+      animation-timing-function: ease-in;
+    }
+    17% {
+      transform: scale(0.98);
+      animation-timing-function: ease-out;
+    }
+    33% {
+      transform: scale(0.87);
+      animation-timing-function: ease-in;
+    }
+    45% {
+      transform: scale(1);
+      animation-timing-function: ease-out;
+    }
+  }
+  .withhaqqmaincontent {
+    height: 22.81rem;
+    gap: var(--gap-3xs);
+  }
+}

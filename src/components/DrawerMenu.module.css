@@ -1,0 +1,73 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.mosqueimageIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 672px;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+.home {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.home:hover {
+  color: var(--color-hover);
+}
+.drawerMenu,
+.pageLinks {
+  display: flex;
+  flex-direction: column;
+}
+.pageLinks {
+  margin: 0 !important;
+  position: absolute;
+  width: 13.33%;
+  top: 241px;
+  right: 43.33%;
+  left: 43.33%;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  z-index: 1;
+}
+
+.drawerMenu {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.9)
+  );
+  gap: var(--gap-3xs);
+  opacity: 0;
+  text-align: left;
+  font-size: 27.19px;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+  z-index: 1000; /* This will ensure the drawer is above most other elements */
+}
+
+.drawerMenu.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-top;
+}

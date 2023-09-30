@@ -1,0 +1,234 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.aboutWithhikmah {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 2.64rem;
+  font-weight: 400;
+  font-family: inherit;
+  color: #1b1a21;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.64rem;
+  flex-shrink: 0;
+}
+.youAreThe {
+  display: block;
+}
+.youAreTheContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.youAreTheContainer {
+  margin: 0;
+  position: relative;
+  line-height: 1.75rem;
+  font-weight: 500;
+  width: 22.51rem;
+  height: 3.69rem;
+  flex-shrink: 0;
+}
+.alImranQuote,
+.aliImran3110,
+.youAreTheContainer {
+  display: flex;
+  align-items: center;
+}
+.aliImran3110 {
+  margin: 0;
+  position: relative;
+  font-size: 0.79rem;
+  line-height: 1.56rem;
+  color: #66545e;
+  justify-content: center;
+  width: 22.51rem;
+  height: 1.57rem;
+  flex-shrink: 0;
+}
+.alImranQuote {
+  width: 23.47rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 0.8rem;
+}
+.withhikmah {
+  font-family: var(--font-inter);
+}
+.commandsAllMuslims {
+  line-height: 2.04rem;
+}
+.iHopeTo {
+  line-height: 2.58rem;
+}
+.iHopeToUseThisWebsiteAs {
+  display: block;
+  color: var(--color-black);
+}
+.span {
+  line-height: 2.04rem;
+  color: var(--color-gray-100);
+}
+.usGetCloser {
+  line-height: 2.58rem;
+  color: var(--color-black);
+}
+.withhikmahWasCreatedContainer {
+  margin: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 22.22rem;
+  flex-shrink: 0;
+}
+.creationresondiv {
+  width: 23.47rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  font-size: 0.68rem;
+}
+.aboutSectionContent1,
+.aboutSectionDiv {
+  flex: 1;
+  height: 21.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.aboutSectionDiv {
+  background-color: #f7f7f7;
+  height: 32.69rem;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+}
+.mosqueimgaboutsectionIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 32.69rem;
+  object-fit: cover;
+}
+.aboutsectionpicturediv {
+  flex: 1;
+  height: 32.69rem;
+  overflow: hidden;
+  flex-direction: row;
+}
+.aboutSectionContent,
+.aboutpage,
+.aboutsectionpicturediv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutSectionContent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 3.75rem;
+  gap: 1rem;
+  opacity: 0;
+  text-align: center;
+  font-size: 1.72rem;
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+.aboutSectionContent.animate {
+  animation: 1s ease-in 0s 1 normal forwards fade-in;
+}
+.aboutpage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 48.44rem;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 4.81rem;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+@media screen and (max-width: 1200px) {
+  .aboutSectionContent {
+    opacity: 0;
+  }
+  .aboutSectionContent.animate {
+    animation: 1s ease-in 0s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+@media screen and (max-width: 960px) {
+  .aboutSectionContent {
+    opacity: 0;
+  }
+  .aboutSectionContent.animate {
+    animation: 1s ease-in 0s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  .aboutWithhikmah,
+  .alImranQuote,
+  .aliImran3110,
+  .youAreTheContainer {
+    align-self: stretch;
+    width: auto;
+  }
+  .withhikmahWasCreatedContainer {
+    flex: 1;
+  }
+  .creationresondiv {
+    align-self: stretch;
+    width: auto;
+  }
+  .aboutSectionDiv,
+  .aboutsectionpicturediv {
+    flex: unset;
+    align-self: stretch;
+  }
+  .aboutsectionpicturediv {
+    display: none;
+  }
+  .aboutSectionContent {
+    flex-direction: column;
+    opacity: 0;
+  }
+  .aboutSectionContent.animate {
+    animation: 1s ease-in 0s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

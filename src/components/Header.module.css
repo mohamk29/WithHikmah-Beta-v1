@@ -1,0 +1,198 @@
+.hamburgebuttonChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 2px solid var(--color-black);
+}
+.hamburgebutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0 20px; /* Adjust as needed */
+  background-color: transparent;
+  margin: 0 !important;
+  position: absolute;
+  width: 2.29%;
+  top: 2.06rem;
+  right: 4.87%;
+  left: 92.84%;
+  height: 0.81rem;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  z-index: 0;
+}
+.withhikmah {
+  margin: 0;
+}
+.withhikmahLogo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 9.5rem;
+  height: 1.88rem;
+  flex-shrink: 0;
+}
+.home {
+  font-size: 0.85rem;
+}
+.about:hover,
+.home:hover,
+.withhaqq:hover {
+  color: var(--color-hover);
+}
+.about,
+.home,
+.withhaqq {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  width: 2.69rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+.withhaqq {
+  width: 4.38rem;
+}
+.container,
+.links,
+.navsearch {
+  display: flex;
+  flex-direction: row;
+}
+.links {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.links:hover {
+  background-color: var(--color-white);
+}
+.container,
+.navsearch {
+  align-items: center;
+}
+.navsearch {
+  border: 1px solid var(--color-black);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-smi);
+  background-color: var(--color-linen-200);
+  flex: 1;
+  box-sizing: border-box;
+  height: 1.88rem;
+  justify-content: space-between;
+  padding: var(--padding-3xs);
+}
+
+.navsearch:focus {
+  outline: none;
+  background-color: var(--color-linen-100);
+  box-shadow: 0 0 2px 1px var(--color-darkslategray);
+}
+
+.navsearch:hover {
+  background-color: var(--color-linen-100);
+}
+.container {
+  width: 30.89rem;
+  justify-content: flex-start;
+  gap: var(--gap-95xl);
+  font-size: 0.86rem;
+}
+.navigationBar,
+.navigationContainer,
+.pageLinks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.navigationBar,
+.navigationContainer {
+  /* overflow: hidden; */
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.navigationBar {
+  z-index: 1;
+}
+.navigationContainer {
+  height: 4.81rem;
+  flex-shrink: 0;
+  padding: var(--padding-3xl) var(--padding-86xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: 1.7rem;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 960px) {
+  .hamburgebuttonChild {
+    width: 1.88rem;
+  }
+  .hamburgebutton {
+    display: flex;
+    /* width: 1.56rem; */
+    width: 10%; /* Adjust as needed */
+    gap: var(--gap-8xs);
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .about,
+  .home,
+  .navsearch,
+  .withhaqq {
+    display: none;
+  }
+  .navigationContainer {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-86xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .hamburgebutton {
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+    padding: 0 10px; /* Adjust as needed */
+  }
+  .hamburgebutton:hover {
+    width: 1.56rem;
+  }
+  .withhikmahLogo {
+    font-size: var(--font-size-3xl);
+    text-align: left;
+  }
+  .about,
+  .container,
+  .home,
+  .navsearch,
+  .withhaqq {
+    display: none;
+  }
+  .pageLinks {
+    display: flex;
+  }
+  .navigationBar {
+    display: flex;
+    width: 6.88rem;
+  }
+  .navigationContainer {
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+}

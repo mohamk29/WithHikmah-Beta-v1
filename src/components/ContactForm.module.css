@@ -1,0 +1,182 @@
+.contact {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 2.61rem;
+  font-weight: 400;
+  font-family: var(--font-playfair-display);
+}
+.contactwithhikmahgmailcom,
+.londonOnCanada {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.36rem;
+}
+.londonOnCanada {
+  margin: 0;
+  font-size: 0.7rem;
+}
+.contactwithhikmahgmailcom {
+  text-decoration: none;
+  font-size: 0.67rem;
+  color: inherit;
+}
+.contactTextDiv {
+  flex: 1;
+  height: 6.69rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.emailinput,
+.nameinput {
+  border: 0;
+  font-family: var(--font-inter);
+  background-color: var(--color-gray-200);
+  align-self: stretch;
+  border-bottom: 0.8px solid var(--color-white);
+  box-sizing: border-box;
+  height: 2.03rem;
+  flex-direction: row;
+  padding: 0.48rem;
+}
+.nameinput {
+  font-size: var(--font-size-2xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.emailinput {
+  font-size: 0.71rem;
+}
+
+.nameinput,
+.emailinput,
+.messageinput {
+  color: var(--color-white);
+}
+
+.nameinput:hover,
+.emailinput:hover,
+.messageinput:hover {
+  border: 1px solid var(--color-white);
+}
+
+.nameinput::placeholder,
+.emailinput::placeholder,
+.messageinput::placeholder {
+  transition: transform 0.3s ease;
+}
+
+.nameinput:hover::placeholder,
+.emailinput:hover::placeholder,
+.messageinput:hover::placeholder {
+  transform: translateY(2px);
+}
+
+.nameinput:focus,
+.emailinput:focus,
+.messageinput:focus {
+  border: 1px solid var(--color-white);
+  outline: none;
+  box-shadow: 0 0 2px 1px var(--color-darkslategray);
+}
+
+.emailinput,
+.messageinput,
+.submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.messageinput {
+  border: 0;
+  background-color: var(--color-gray-200);
+  font-family: var(--font-inter);
+  font-size: 0.71rem;
+  align-self: stretch;
+  border-bottom: 0.8px solid var(--color-white);
+  box-sizing: border-box;
+  height: 6.09rem;
+  flex-direction: row;
+  padding: 0.72rem;
+}
+.submit {
+  flex: 1;
+  position: relative;
+  font-size: 0.87rem;
+  line-height: 1.52rem;
+  font-family: var(--font-playfair-display);
+  color: var(--color-black);
+  text-align: center;
+  height: 1.52rem;
+}
+.submit:hover {
+  color: var(--color-white);
+}
+.contactFormDiv,
+.formSubmitButton {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formSubmitButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-11xs);
+  background-color: var(--color-white);
+  align-self: stretch;
+  flex-direction: row;
+}
+.formSubmitButton:hover {
+  background-color: var(--color-darkgray-100);
+}
+.contactFormDiv {
+  flex: 1;
+  height: 19.07rem;
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.contactFormContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 1.93rem;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 420px) {
+  .contactTextDiv {
+    height: 5.31rem;
+    gap: var(--gap-12xs);
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    flex: unset;
+    align-self: stretch;
+  }
+  .nameinput {
+    background-color: var(--color-black);
+  }
+  .contactFormDiv {
+    flex: unset;
+    align-self: stretch;
+  }
+  .contactFormContent {
+    flex-direction: column;
+    gap: var(--gap-11xl);
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+}
