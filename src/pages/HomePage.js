@@ -35,6 +35,9 @@ const HomePage = () => {
       }
     };
   }, []);
+
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className={styles.homepage}>
       <Header />
@@ -71,7 +74,7 @@ const HomePage = () => {
           </span>
         </p>
         <p className={styles.copyright2022Container}>
-          <span>Copyright © 2022 by withHikmah</span>
+          <span>Copyright © {currentYear} by withHikmah</span>
         </p>
       </div>
       <SubscriptionForm />

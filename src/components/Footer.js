@@ -2,6 +2,8 @@ import { useMemo } from "react";
 import styles from "./Footer.module.css";
 
 const Footer = ({ footerPadding }) => {
+  const currentYear = new Date().getFullYear();
+
   const footerStyle = useMemo(() => {
     return {
       padding: footerPadding,
@@ -16,7 +18,7 @@ const Footer = ({ footerPadding }) => {
       >
         contactwithHikmah@gmail.com
       </a>
-      <p className={styles.byWithhikmah}>©2022 by withHikmah.</p>
+      <p className={styles.byWithhikmah}>©{currentYear} by withHikmah.</p>
     </section>
   );
 };
