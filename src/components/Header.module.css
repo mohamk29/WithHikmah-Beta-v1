@@ -4,10 +4,11 @@
   position: relative;
   border-top: 2px solid var(--color-black);
 }
-.hamburgebutton {
+
+/* .hamburgebutton {
   cursor: pointer;
   border: 0;
-  padding: 0 20px; /* Adjust as needed */
+  padding: 0 20px; 
   background-color: transparent;
   margin: 0 !important;
   position: absolute;
@@ -22,7 +23,27 @@
   justify-content: flex-start;
   gap: var(--gap-6xs);
   z-index: 0;
+} */
+
+/*New edit*/
+.hamburgebutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0 20px; /* Adjusted the right padding */
+  background-color: transparent;
+  position: absolute;
+  top: 2.06rem;
+  right: 20px; /* Instead of percentages, using fixed units */
+  height: 0.81rem;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  z-index: 0;
 }
+/*New edit*/
+
 .withhikmah {
   margin: 0;
 }
@@ -142,13 +163,12 @@
   }
   .hamburgebutton {
     display: flex;
-    /* width: 1.56rem; */
-    width: 10%; /* Adjust as needed */
+    width: 10%;
     gap: var(--gap-8xs);
     align-items: center;
     justify-content: center;
     padding-left: 0;
-    padding-right: var(--padding-11xl);
+    padding-right: 20px; /* Consistent padding across screen sizes */
     box-sizing: border-box;
   }
   .about,
