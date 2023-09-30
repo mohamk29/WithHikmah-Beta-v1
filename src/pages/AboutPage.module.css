@@ -194,17 +194,8 @@
   }
 }
 @media screen and (max-width: 420px) {
-  /* .aboutWithhikmah,
-  .alImranQuote,
-  .aliImran3110,
-  .youAreTheContainer {
-    align-self: stretch;
-    width: auto;
-  } */
-
-  /*New Edit*/
   .aboutWithhikmah {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     align-self: stretch;
     width: auto;
   }
@@ -212,7 +203,7 @@
   .alImranQuote,
   .aliImran3110,
   .youAreTheContainer {
-    font-size: 0.7rem;
+    font-size: 0.72rem;
     align-self: stretch;
     width: auto;
   }
@@ -225,9 +216,13 @@
   .iHopeTo,
   .usGetCloser {
     line-height: 1.6rem;
+    font-size: 0.65rem;
   }
 
-  /*New Edit*/
+  .aboutSectionContent {
+    padding-left: 1.7rem; /* Adjust as needed */
+    padding-right: 1.7rem; /* Adjust as needed */
+  }
 
   .withhikmahWasCreatedContainer {
     flex: 1;
@@ -251,6 +246,62 @@
   .aboutSectionContent.animate {
     animation: 1s ease-in 0s 1 normal forwards fade-in;
   }
+
+  @media screen and (max-width: 375px) {
+    .aboutWithhikmah {
+      font-size: 1.5rem;
+    }
+
+    .alImranQuote,
+    .aliImran3110,
+    .youAreTheContainer {
+      font-size: 0.69rem;
+    }
+
+    .youAreThe {
+      line-height: 1.2rem;
+    }
+
+    .commandsAllMuslims,
+    .iHopeTo,
+    .usGetCloser {
+      line-height: 1.4rem;
+    }
+
+    .aboutSectionContent {
+      padding-left: 1.2rem;
+      padding-right: 1.2rem;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .aboutWithhikmah {
+      font-size: 1.3rem;
+    }
+
+    .alImranQuote,
+    .aliImran3110,
+    .youAreTheContainer {
+      font-size: 0.6rem;
+    }
+
+    .youAreThe {
+      line-height: 1.2rem;
+    }
+
+    .commandsAllMuslims,
+    .iHopeTo,
+    .usGetCloser {
+      line-height: 1.4rem;
+      font-size: 0.4rem;
+    }
+
+    .aboutSectionContent {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
   @keyframes fade-in {
     0% {
       opacity: 0;
