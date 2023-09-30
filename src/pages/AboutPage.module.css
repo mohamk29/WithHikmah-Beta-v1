@@ -194,13 +194,41 @@
   }
 }
 @media screen and (max-width: 420px) {
-  .aboutWithhikmah,
+  /* .aboutWithhikmah,
   .alImranQuote,
   .aliImran3110,
   .youAreTheContainer {
     align-self: stretch;
     width: auto;
+  } */
+
+  /*New Edit*/
+  .aboutWithhikmah {
+    font-size: 1.4rem;
+    align-self: stretch;
+    width: auto;
   }
+
+  .alImranQuote,
+  .aliImran3110,
+  .youAreTheContainer {
+    font-size: 0.7rem;
+    align-self: stretch;
+    width: auto;
+  }
+
+  .youAreThe {
+    line-height: 1.4rem;
+  }
+
+  .commandsAllMuslims,
+  .iHopeTo,
+  .usGetCloser {
+    line-height: 1.6rem;
+  }
+
+  /*New Edit*/
+
   .withhikmahWasCreatedContainer {
     flex: 1;
   }
