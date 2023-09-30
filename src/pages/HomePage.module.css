@@ -30,6 +30,7 @@
 .heroBackgroundImage.animate {
   animation: 1s ease-in-out 0s 1 normal forwards fade-in;
 }
+
 .ifAllahIntends {
   margin-block-start: 0;
   margin-block-end: 12px;
@@ -219,12 +220,18 @@
   .ifAllahIntendsContainer {
     font-weight: 700;
     font-family: var(--font-domine);
-    font-size: var(--font-size-smi);
+    font-size: 0.9rem;
     text-align: center;
   }
   .sahhAlBukhari71 {
-    font-size: var(--font-size-5xs);
+    font-size: 0.6rem;
   }
+
+  .ifAllahIntends,
+  .heGivesHim {
+    white-space: nowrap;
+  }
+
   .heroContent {
     opacity: 0;
   }
@@ -269,5 +276,33 @@
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .ifAllahIntends,
+  .heGivesHim {
+    white-space: nowrap;
+  }
+
+  .ifAllahIntendsContainer {
+    font-size: 0.79rem;
+  }
+  .sahhAlBukhari71 {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .ifAllahIntends,
+  .heGivesHim {
+    white-space: normal;
+  }
+
+  .ifAllahIntendsContainer {
+    font-size: 0.6rem;
+  }
+  .sahhAlBukhari71 {
+    font-size: 0.4rem;
   }
 }
