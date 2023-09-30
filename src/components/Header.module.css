@@ -188,10 +188,9 @@
     padding-right: var(--padding-mini);
     box-sizing: border-box;
     padding: 0 10px; /* Adjust as needed */
+    padding-right: 15px; /* Reduced padding for smaller screens */
   }
-  .hamburgebutton:hover {
-    width: 1.56rem;
-  }
+
   .withhikmahLogo {
     font-size: var(--font-size-3xl);
     text-align: left;
