@@ -258,12 +258,12 @@
   }
 
   .copyrightStatement {
-    font-size: var(--font-size-mid);
+    font-size: 1.4rem;
     height: 1.38rem;
   }
 
   .allRightsReservedContainer {
-    font-size: 0.4rem;
+    font-size: 0.65rem;
     line-height: 1.44rem;
   }
 
