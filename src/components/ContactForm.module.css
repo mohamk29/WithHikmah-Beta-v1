@@ -7,6 +7,7 @@
   font-weight: 400;
   font-family: var(--font-playfair-display);
 }
+
 .contactwithhikmahgmailcom,
 .londonOnCanada {
   align-self: stretch;
@@ -178,17 +179,5 @@
     justify-content: center;
     padding-bottom: 0;
     box-sizing: border-box;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .nameinput,
-  .emailinput,
-  .messageinput {
-    padding: 0.48rem 0.2rem; /* Reduced side padding for inputs */
-    width: 100%; /* Force them to take the entire width of the container */
-  }
-  .contactFormSection {
-    padding: 1.5rem 0.32rem; /* Reducing the section's side padding */
   }
 }

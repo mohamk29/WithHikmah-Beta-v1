@@ -92,6 +92,7 @@
   color: var(--color-black);
   font-family: var(--font-domine);
 }
+
 .contactFormSection {
   background-color: var(--color-black);
   align-items: flex-start;
@@ -205,6 +206,10 @@
   .heroContent.animate {
     animation: 1s ease-in 0s 1 normal forwards fade-in-right;
   }
+
+  .contactFormSection {
+    padding: 2.75rem 4rem;
+  }
   @keyframes fade-in-right {
     0% {
       transform: translateX(50px);
@@ -249,7 +254,7 @@
     }
   }
   .contactFormSection {
-    flex-direction: column;
+    padding: 2.75rem 3.5rem;
   }
   .copyrightStatement {
     font-size: var(--font-size-mid);
@@ -285,6 +290,10 @@
     white-space: nowrap;
   }
 
+  .contactFormSection {
+    padding: 2.75rem 3rem;
+  }
+
   .ifAllahIntendsContainer {
     font-size: 0.79rem;
   }
@@ -293,7 +302,7 @@
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 320px) {
   .ifAllahIntends,
   .heGivesHim {
     white-space: normal;
@@ -304,5 +313,9 @@
   }
   .sahhAlBukhari71 {
     font-size: 0.4rem;
+  }
+
+  .contactFormSection {
+    padding: 2.75rem 2rem;
   }
 }
