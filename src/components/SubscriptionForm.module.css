@@ -128,3 +128,10 @@
     gap: var(--gap-3xs);
   }
 }
+
+@media screen and (max-width: 320px) {
+  .wantToKnow {
+    font-size: 0.7rem;
+    height: 1.13rem;
+  }
+}

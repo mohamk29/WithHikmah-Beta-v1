@@ -355,3 +355,43 @@
     gap: var(--gap-3xs);
   }
 }
+
+@media screen and (max-width: 375px) {
+  .withhaqqlogoimgdiv {
+    width: 6.63rem;
+    height: 8.2rem;
+  }
+
+  .heroSection {
+    flex-direction: row;
+    gap: 0.7rem;
+    padding-left: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+
+  .adhkarexplanationdiv p {
+    font-size: 0.1rem;
+    padding: 0.33rem 2rem;
+  }
+
+  .adhkarexplanationdiv {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .withhaqqlogoimgdiv {
+    width: 5.63rem;
+    height: 7.2rem;
+  }
+
+  .heroContent {
+    height: 5rem;
+  }
+
+  .anInstagramPageContainer,
+  .instagram,
+  .withhaqq1 {
+    font-size: 7px;
+  }
+}
