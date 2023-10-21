@@ -120,7 +120,7 @@ const WithHaqqPage = () => {
         </div>
         <div className={styles.adhkaralbumdiv}>
           <a
-            href="/assets/pdfs/Morning Adhkār.pdf"
+            href="/assets/pdfs/MorningAdhkār.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -131,7 +131,7 @@ const WithHaqqPage = () => {
             />
           </a>
           <a
-            href="/assets/pdfs/Evening Adhkār.pdf"
+            href="/assets/pdfs/EveningAdhkār.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -142,7 +142,7 @@ const WithHaqqPage = () => {
             />
           </a>
           <a
-            href="/assets/pdfs/After Salah Adhkār.pdf"
+            href="/assets/pdfs/AfterSalahAdhkār.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
