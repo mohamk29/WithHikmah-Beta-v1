@@ -309,6 +309,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    margin-bottom: 1rem;
   }
   .clickThePicturesContainer {
     font-size: var(--font-size-6xs);
