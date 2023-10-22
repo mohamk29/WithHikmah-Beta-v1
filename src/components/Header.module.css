@@ -28,9 +28,9 @@
 .withhikmahLogo {
   margin: 0;
   position: relative;
-  font-size: inherit;
+  font-family: var(--font-Fraunces);
   font-weight: 400;
-  font-family: inherit;
+  font-size: 30px;
   display: inline-block;
   width: 9.5rem;
   height: 1.88rem;
@@ -55,6 +55,9 @@
   width: 2.69rem;
   height: 1rem;
   flex-shrink: 0;
+  font-family: "Avenir";
+  font-weight: 100;
+  font-size: 14px;
 }
 .withhaqq {
   width: 4.38rem;

@@ -34,9 +34,16 @@
 .ifAllahIntends {
   margin-block-start: 0;
   margin-block-end: 12px;
+  margin-top: 60px;
+  font-family: var(--font-Fraunces);
+  font-weight: 400;
+  font-size: 2.43rem;
 }
 .heGivesHim {
   margin: 0;
+  font-family: var(--font-Fraunces);
+  font-weight: 400;
+  font-size: 2.43rem;
 }
 .ifAllahIntendsContainer,
 .sahhAlBukhari71 {
@@ -52,7 +59,9 @@
 .sahhAlBukhari71 {
   font-size: 0.8rem;
   font-weight: 600;
-  font-family: var(--font-inter);
+  font-family: var(--font-Fraunces);
+  font-weight: 400;
+  font-size: 19px;
 }
 .heroContent {
   margin: 0 !important;
@@ -102,9 +111,9 @@
   margin: 0;
   align-self: stretch;
   position: relative;
-  font-size: inherit;
+  font-family: var(--font-playfair-display);
   font-weight: 400;
-  font-family: inherit;
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -195,6 +204,17 @@
   .heroBackgroundImage.animate {
     animation: 1s ease-in-out 0s 1 normal forwards fade-in;
   }
+
+  .ifAllahIntends {
+    font-size: 2rem;
+  }
+  .heGivesHim {
+    font-size: 2rem;
+  }
+  .sahhAlBukhari71 {
+    font-size: 1rem;
+  }
+
   @keyframes fade-in {
     0% {
       opacity: 0;
@@ -234,7 +254,9 @@
 
   .ifAllahIntends,
   .heGivesHim {
-    white-space: nowrap;
+    /* white-space: nowrap; */
+    font-size: 0.85rem;
+    font-weight: 600;
   }
 
   .heroContent {
@@ -285,7 +307,8 @@
 @media screen and (max-width: 375px) {
   .ifAllahIntends,
   .heGivesHim {
-    white-space: nowrap;
+    font-size: 0.76rem;
+    font-weight: 600;
   }
 
   .contactFormSection {
@@ -304,20 +327,27 @@
   .ifAllahIntends,
   .heGivesHim {
     white-space: normal;
+    font-size: 0.653rem;
   }
 
   .ifAllahIntendsContainer {
     font-size: 0.6rem;
   }
   .sahhAlBukhari71 {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
 
   .contactFormSection {
     padding: 2.75rem 2rem;
   }
+
+  .copyrightStatement {
+    font-size: 1.2rem;
+    height: 1.38rem;
+  }
+
   .allRightsReservedContainer {
-    font-size: 0.1rem;
+    font-size: 0.4rem;
     line-height: 1.3rem;
   }
 }

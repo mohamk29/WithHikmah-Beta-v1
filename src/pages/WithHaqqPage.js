@@ -41,7 +41,7 @@ const WithHaqqPage = () => {
           <img
             className={styles.withhaqqlogoimgIcon}
             alt="With Haqq Logo"
-            src="/assets/images/withhaqqlogoimg.png"
+            src="/assets/images/withhaqqlogoimg.jpeg"
           />
         </div>
         <div className={styles.heroContent} data-animate-on-scroll>
