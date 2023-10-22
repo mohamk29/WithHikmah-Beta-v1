@@ -142,7 +142,7 @@ const WithHaqqPage = () => {
             />
           </a>
           <a
-            href="/assets/pdfs/AfterSalah Adhkār.pdf"
+            href="/assets/pdfs/AfterSalahAdhkar.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
