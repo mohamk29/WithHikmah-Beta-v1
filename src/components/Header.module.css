@@ -41,12 +41,14 @@
 }
 .about:hover,
 .home:hover,
-.withhaqq:hover {
+.withhaqq:hover,
+.tafseerGuides:hover {
   color: var(--color-hover);
 }
 .about,
 .home,
-.withhaqq {
+.withhaqq,
+.tafseerGuides {
   cursor: pointer;
   text-decoration: none;
   position: relative;
@@ -58,6 +60,10 @@
   font-family: "Avenir";
   font-weight: 100;
   font-size: 14px;
+}
+
+.tafseerGuides {
+  width: 5.79rem;
 }
 .withhaqq {
   width: 4.38rem;
@@ -103,7 +109,7 @@
   background-color: var(--color-linen-100);
 }
 .container {
-  width: 30.89rem;
+  width: 36rem;
   justify-content: flex-start;
   gap: var(--gap-95xl);
   font-size: 0.86rem;
@@ -155,7 +161,8 @@
   .about,
   .home,
   .navsearch,
-  .withhaqq {
+  .withhaqq,
+  .tafseerGuides {
     display: none;
   }
   .navigationContainer {
@@ -180,7 +187,8 @@
   .container,
   .home,
   .navsearch,
-  .withhaqq {
+  .withhaqq,
+  .tafseerGuides {
     display: none;
   }
   .pageLinks {

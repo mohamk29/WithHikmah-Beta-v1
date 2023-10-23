@@ -39,6 +39,9 @@ const Header = () => {
                 <Link className={styles.withhaqq} to="/withhaqqpage">
                   WithHaqq
                 </Link>
+                <Link className={styles.tafseerGuides} to="/tafseerguides">
+                  Tafseer Guides
+                </Link>
               </div>
               <input
                 className={styles.navsearch}

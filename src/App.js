@@ -4,6 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import TafseerGuidesPage from "./pages/TafseerGuidesPage";
 import WithHaqqPage from "./pages/WithHaqqPage";
 import AboutPage from "./pages/AboutPage";
 import HomePage from "./pages/HomePage";
@@ -37,6 +38,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/tafseerguides":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -58,6 +63,7 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/aboutpage" element={<AboutPage />} />
       <Route path="/withhaqqpage" element={<WithHaqqPage />} />
+      <Route path="/tafseerguides" element={<TafseerGuidesPage />} />
     </Routes>
   );
 }
