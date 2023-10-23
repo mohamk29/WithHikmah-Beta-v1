@@ -44,6 +44,9 @@ const DrawerMenu = ({ onClose }) => {
         <Link className={styles.home} to="/withhaqqpage">
           WithHaqq
         </Link>
+        <Link className={styles.tafseerGuides} to="/tafseerguides">
+          Tafseer Guides
+        </Link>
       </div>
     </div>
   );

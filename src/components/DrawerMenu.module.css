@@ -18,13 +18,15 @@
   object-fit: cover;
   z-index: 0;
 }
-.home {
+.home,
+.tafseerGuides {
   cursor: pointer;
   text-decoration: none;
   position: relative;
   color: inherit;
 }
-.home:hover {
+.home:hover,
+.tafseerGuides:hover {
   color: var(--color-hover);
 }
 .drawerMenu,
@@ -43,6 +45,10 @@
   justify-content: center;
   gap: 45px;
   z-index: 1;
+}
+
+.tafseerGuides {
+  width: 12rem;
 }
 
 .drawerMenu {
