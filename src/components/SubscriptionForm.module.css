@@ -12,8 +12,6 @@
   height: 1.89rem;
   flex-shrink: 0;
 }
-.join,
-.subscriptionbutton,
 .subscriptionemailinput {
   height: 3.5rem;
   display: flex;
@@ -30,43 +28,20 @@
   flex-direction: row;
   padding: var(--padding-3xs) var(--padding-6xl);
 }
-.join,
-.subscriptionbutton {
-  width: 4.5rem;
-  flex-shrink: 0;
-}
-.join {
-  position: relative;
-  font-size: var(--font-size-lg);
-  line-height: 1.97rem;
-  font-family: var(--font-playfair-display);
-  color: var(--color-white);
-  text-align: center;
-}
-.join:hover {
-  color: var(--color-black);
-}
 
 .subscriptionemailinput:focus {
   outline: none;
   box-shadow: 0 0 2px 1px var(--color-darkslategray);
 }
 
-.subscriptionbutton {
-  cursor: pointer;
-  padding: var(--padding-xs) var(--padding-xl);
-  background-color: var(--color-gray-100);
-  overflow: hidden;
-  flex-direction: row;
+.buttonWidth {
+  width: 4.5rem;
 }
-.subscriptionbutton:hover {
-  background-color: var(--color-white);
+
+.buttonHeight {
+  height: 3.5rem;
 }
-.subscriptionbutton,
-.subscriptionbutton:active {
-  border: 1px solid var(--color-gray-100);
-  box-sizing: border-box;
-}
+
 .subscriptionformdiv {
   width: 32.25rem;
   display: flex;
@@ -89,14 +64,7 @@
   color: var(--color-black);
   font-family: var(--font-playfair-display);
 }
-@media screen and (max-width: 1200px) {
-  .join {
-    color: var(--color-white);
-  }
-  .join:hover {
-    color: var(--color-black);
-  }
-}
+
 @media screen and (max-width: 420px) {
   .wantToKnow {
     font-size: var(--font-size-smi);
@@ -106,17 +74,17 @@
     width: 15.31rem;
     height: 2.06rem;
   }
-  .join {
-    font-size: var(--font-size-smi);
-    width: 15.31rem;
+
+  .buttonInSubscriptionForm {
+    width: 15.31rem !important;
+    height: 2.06rem !important;
   }
-  .subscriptionbutton {
-    width: 15.31rem;
-    height: 2.44rem;
-    gap: var(--gap-0);
-    padding-left: var(--padding-xl);
-    box-sizing: border-box;
+
+  .buttonInSubscriptionForm {
+    width: 20rem;
+    height: 20rem;
   }
+
   .subscriptionformdiv {
     flex-direction: column;
     gap: var(--gap-10xs);

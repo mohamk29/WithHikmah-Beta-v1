@@ -1,4 +1,5 @@
 import styles from "./SubscriptionForm.module.css";
+import Button from "./Button";
 
 const SubscriptionForm = () => {
   return (
@@ -12,9 +13,14 @@ const SubscriptionForm = () => {
           placeholder="e.g., email@example.com"
           type="email"
         />
-        <button className={styles.subscriptionbutton}>
-          <div className={styles.join}>Join</div>
-        </button>
+
+        <Button
+          label="Join"
+          widthClass={styles.buttonWidth}
+          heightClass={styles.buttonHeight}
+          color="dark"
+          className={styles.buttonInSubscriptionForm}
+        />
       </div>
     </section>
   );

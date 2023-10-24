@@ -27,7 +27,7 @@
   text-align: center;
   font-size: 0.87rem;
   color: var(--color-black);
-  font-family: var(--font-inter);
+  font-family: "Avenir";
 }
 @media screen and (max-width: 420px) {
   .byWithhikmah,

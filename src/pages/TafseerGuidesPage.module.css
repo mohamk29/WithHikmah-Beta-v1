@@ -1,5 +1,73 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+.leftColumn {
+  flex: 1.2;
+  font-family: "Playfair Display";
+  padding-left: 7rem;
+  padding-right: 13rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainHeading {
+  font-size: 3.2rem;
+  font-weight: normal;
+}
+
+.firstParagraph {
+  line-height: 2.2rem;
+}
+
+.secondParagraph {
+  margin-top: 2rem;
+  line-height: 2.2rem;
+}
+
+.middleColumn,
+.rightColumn {
+  flex: 1;
+  margin-top: 3.5rem;
+}
+
+.emailButton {
+  width: 11rem;
+  height: 2.7rem;
+  margin-left: 7rem;
+  margin-top: 0.6rem;
+}
+
+.emailLink {
+  text-decoration: none;
+}
+
+.juzButton {
+  width: 9rem;
+  height: 2.1rem;
+  font-family: "Avenir Light";
+  margin-top: 1.5rem;
 }
