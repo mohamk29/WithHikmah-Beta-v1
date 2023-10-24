@@ -13,7 +13,7 @@
   font-size: inherit;
   line-height: 2.64rem;
   font-weight: 400;
-  font-family: inherit;
+  font-family: Fraunces;
   color: #1b1a21;
   display: flex;
   align-items: center;
@@ -23,6 +23,7 @@
 }
 .youAreThe {
   display: block;
+  font-family: "Avenir";
 }
 .youAreTheContainer1 {
   line-break: anywhere;
@@ -53,6 +54,7 @@
   width: 22.51rem;
   height: 1.57rem;
   flex-shrink: 0;
+  font-family: "Avenir";
 }
 .alImranQuote {
   width: 23.47rem;
@@ -61,13 +63,14 @@
   font-size: 0.8rem;
 }
 .withhikmah {
-  font-family: var(--font-inter);
+  font-family: "Avenir";
 }
 .commandsAllMuslims {
   line-height: 2.04rem;
 }
 .iHopeTo {
-  line-height: 2.58rem;
+  line-height: 2.04rem;
+  font-family: "Avenir";
 }
 .iHopeToUseThisWebsiteAs {
   display: block;
