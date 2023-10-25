@@ -85,3 +85,43 @@
 .progressText {
   color: grey;
 }
+
+@media (min-width: 421px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .container {
+    overflow-x: hidden;
+  }
+
+  .middleColumn,
+  .rightColumn {
+    padding: 0;
+    display: none;
+  }
+
+  .leftColumn {
+    padding: 0rem 2rem 0rem 2rem;
+  }
+
+  .emailButton {
+    margin-left: 5rem;
+    margin-top: 0.6rem;
+  }
+
+  .dropdown {
+    display: block;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    width: 75%;
+  }
+}

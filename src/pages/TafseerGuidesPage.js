@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { useEffect } from "react";
 import Header from "../components/Header";
 import Button from "../components/Button";
@@ -7,6 +8,8 @@ import Footer from "../components/Footer";
 import styles from "./TafseerGuidesPage.module.css";
 
 function TafseerGuidesPage() {
+  const [selectedJuz, setSelectedJuz] = useState("");
+
   useEffect(() => {
     document.querySelector("." + styles.content).classList.add(styles.animate);
   }, []);
@@ -90,6 +93,17 @@ function TafseerGuidesPage() {
           <Button label="Juz 30" className={styles.juzButton} color="light" />
         </div>
       </div>
+
+      <select
+        value={selectedJuz}
+        onChange={(e) => setSelectedJuz(e.target.value)}
+        className={styles.dropdown}
+      >
+        <option value="">Select Juz</option>
+        {Array.from({ length: 30 }).map((_, idx) => (
+          <option key={idx} value={`Juz ${idx + 1}`}>{`Juz ${idx + 1}`}</option>
+        ))}
+      </select>
 
       <SubscriptionForm />
       <Footer />
