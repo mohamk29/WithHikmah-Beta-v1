@@ -43,16 +43,18 @@ function TafseerGuidesPage() {
             attention by contacting me and I will fix it immediately!
           </p>
 
-          <a
-            href="mailto:contactwithHikmah@gmail.com"
-            className={styles.emailLink}
-          >
-            <Button
-              label="Send an Email"
-              className={styles.emailButton}
-              color="dark"
-            />
-          </a>
+          <div className={styles.emailButtonContainer}>
+            <a
+              href="mailto:contactwithHikmah@gmail.com"
+              className={styles.emailLink}
+            >
+              <Button
+                label="Send an Email"
+                className={styles.emailButton}
+                color="dark"
+              />
+            </a>
+          </div>
         </div>
 
         <div className={styles.middleColumn}>
