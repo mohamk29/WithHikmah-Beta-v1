@@ -38,14 +38,17 @@ const DrawerMenu = ({ onClose }) => {
         <Link className={styles.home} to="/">
           Home
         </Link>
-        <Link className={styles.home} to="/aboutpage">
+        <Link className={styles.home} to="/about">
           About
         </Link>
-        <Link className={styles.home} to="/withhaqqpage">
+        <Link className={styles.home} to="/withhaqq">
           WithHaqq
         </Link>
         <Link className={styles.tafseerGuides} to="/tafseerguides">
           Tafseer Guides
+        </Link>
+        <Link className={styles.home} to="/hadiths">
+          Hadiths
         </Link>
       </div>
     </div>

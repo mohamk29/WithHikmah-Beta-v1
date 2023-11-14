@@ -42,13 +42,16 @@
 .about:hover,
 .home:hover,
 .withhaqq:hover,
-.tafseerGuides:hover {
+.tafseerGuides:hover,
+.hadiths:hover {
   color: var(--color-hover);
 }
+
 .about,
 .home,
 .withhaqq,
-.tafseerGuides {
+.tafseerGuides,
+.hadiths {
   cursor: pointer;
   text-decoration: none;
   position: relative;
@@ -67,6 +70,9 @@
 }
 .withhaqq {
   width: 4.38rem;
+}
+.hadiths {
+  width: 0.1rem;
 }
 .container,
 .links,
@@ -162,7 +168,8 @@
   .home,
   .navsearch,
   .withhaqq,
-  .tafseerGuides {
+  .tafseerGuides,
+  .hadiths {
     display: none;
   }
   .navigationContainer {
@@ -188,7 +195,8 @@
   .home,
   .navsearch,
   .withhaqq,
-  .tafseerGuides {
+  .tafseerGuides,
+  .hadiths {
     display: none;
   }
   .pageLinks {

@@ -8,6 +8,7 @@ import TafseerGuidesPage from "./pages/TafseerGuidesPage";
 import WithHaqqPage from "./pages/WithHaqqPage";
 import AboutPage from "./pages/AboutPage";
 import HomePage from "./pages/HomePage";
+import HadithPage from "./pages/HadithPage";
 import { useEffect } from "react";
 
 function App() {
@@ -30,15 +31,19 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/aboutpage":
+      case "/about":
         title = "";
         metaDescription = "";
         break;
-      case "/withhaqqpage":
+      case "/withhaqq":
         title = "";
         metaDescription = "";
         break;
       case "/tafseerguides":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/hadiths":
         title = "";
         metaDescription = "";
         break;
@@ -61,9 +66,10 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/aboutpage" element={<AboutPage />} />
-      <Route path="/withhaqqpage" element={<WithHaqqPage />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/withhaqq" element={<WithHaqqPage />} />
       <Route path="/tafseerguides" element={<TafseerGuidesPage />} />
+      <Route path="/hadiths" element={<HadithPage />} />
     </Routes>
   );
 }

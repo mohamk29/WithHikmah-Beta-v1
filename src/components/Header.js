@@ -33,14 +33,17 @@ const Header = () => {
                 <Link className={styles.home} to="/">
                   <p className={styles.withhikmah}>Home</p>
                 </Link>
-                <Link className={styles.about} to="/aboutpage">
+                <Link className={styles.about} to="/about">
                   <p className={styles.withhikmah}>About</p>
                 </Link>
-                <Link className={styles.withhaqq} to="/withhaqqpage">
+                <Link className={styles.withhaqq} to="/withhaqq">
                   WithHaqq
                 </Link>
                 <Link className={styles.tafseerGuides} to="/tafseerguides">
                   Tafseer Guides
+                </Link>
+                <Link className={styles.hadiths} to="/hadiths">
+                  Hadiths
                 </Link>
               </div>
               <input
