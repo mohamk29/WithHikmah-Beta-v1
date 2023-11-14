@@ -86,9 +86,11 @@ function TafseerGuidesPage() {
           <Button label="Juz 23" className={styles.juzButton} color="grey" />
           <Button label="Juz 24" className={styles.juzButton} color="grey" />
           <Button label="Juz 25" className={styles.juzButton} color="grey" />
-          {/* <Button label="Juz 26" className={styles.juzButton} color="light" /> */}
-          <p className={styles.upcomingText}>Juz 26 Tafseer Guide</p>
-          <p className={styles.progressText}>Work in Progress!</p>
+          <Button
+            label="Juz 26 -underway"
+            className={styles.juzButton}
+            color="grey"
+          />
           <Button label="Juz 27" className={styles.juzButton} color="light" />
           <Button label="Juz 28" className={styles.juzButton} color="light" />
           <Button label="Juz 29" className={styles.juzButton} color="light" />
