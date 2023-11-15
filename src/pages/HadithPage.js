@@ -8,6 +8,7 @@ function HadithPage() {
   return (
     <>
       <Header />
+      <h1>COMING SOON!</h1>
       <SubscriptionForm />
       <Footer />
     </>

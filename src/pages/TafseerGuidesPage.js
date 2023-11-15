@@ -87,7 +87,7 @@ function TafseerGuidesPage() {
           <Button label="Juz 24" className={styles.juzButton} color="grey" />
           <Button label="Juz 25" className={styles.juzButton} color="grey" />
           <Button
-            label="Juz 26 -underway"
+            label="Juz 26 - Editing"
             className={styles.juzButton}
             color="grey"
           />
